@@ -10,7 +10,7 @@ import (
 func main() {
 	inputDirPath := flag.String("input", "./tmp/images/input", "input directory path")
 	outputDirPath := flag.String("output", "./tmp/images/output", "output directory path")
-	cutPx := flag.Int("cut", 60, "pixels to cut from bottom")
+	cutPx := flag.Int("cut", 80, "pixels to cut from bottom")
 
 	flag.Parse()
 
